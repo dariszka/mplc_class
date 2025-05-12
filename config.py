@@ -1,3 +1,4 @@
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Data paths
 AUDIO_FEATURES_DIR = "data/audio_features"
